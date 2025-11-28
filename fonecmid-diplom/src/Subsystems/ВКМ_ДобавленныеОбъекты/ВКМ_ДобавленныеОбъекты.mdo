@@ -8,7 +8,7 @@
   <includeHelpInContents>true</includeHelpInContents>
   <includeInCommandInterface>true</includeInCommandInterface>
   <picture xsi:type="core:PictureRef">
-    <picture>CommonPicture.ОбщаяКартинка</picture>
+    <picture>CommonPicture.ОбщаяКартинка1</picture>
   </picture>
   <content>Document.ВКМ_ОбслуживаниеКлиента</content>
   <content>Document.ВКМ_НачислениеЗарплаты</content>

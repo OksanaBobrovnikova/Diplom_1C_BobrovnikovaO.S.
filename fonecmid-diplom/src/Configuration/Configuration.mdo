@@ -532,6 +532,9 @@
   <commonPictures>CommonPicture.ЭлектронноеПисьмо</commonPictures>
   <commonPictures>CommonPicture.ЯндексКарты</commonPictures>
   <commonPictures>CommonPicture.ОбщаяКартинка</commonPictures>
+  <commonPictures>CommonPicture.ОбщаяКартинка1</commonPictures>
+  <commonPictures>CommonPicture.ОбщаяКартинка2</commonPictures>
+  <commonPictures>CommonPicture.ОбщаяКартинка3</commonPictures>
   <sessionParameters>SessionParameter.АвторизованныйПользователь</sessionParameters>
   <sessionParameters>SessionParameter.БуферОбмена</sessionParameters>
   <sessionParameters>SessionParameter.ВерсииШаблоновОграниченияДоступа</sessionParameters>
@@ -1061,7 +1064,10 @@
   <commandGroups>CommandGroup.Информация</commandGroups>
   <commandGroups>CommandGroup.Органайзер</commandGroups>
   <commandGroups>CommandGroup.Печать</commandGroups>
-  <commandGroups>CommandGroup.Основное</commandGroups>
+  <commandGroups>CommandGroup.ВКМ_Документы</commandGroups>
+  <commandGroups>CommandGroup.ВКМ_Справочники</commandGroups>
+  <commandGroups>CommandGroup.ВКМ_Константы</commandGroups>
+  <commandGroups>CommandGroup.ВКМ_Регистры</commandGroups>
   <constants>Constant.АвтоматическиНастраиватьРазрешенияВПрофиляхБезопасности</constants>
   <constants>Constant.АдресПубликацииИнформационнойБазыВИнтернете</constants>
   <constants>Constant.ГлавныйУзел</constants>
