@@ -612,7 +612,7 @@
       </extInfo>
     </items>
     <items xsi:type="form:FormField">
-      <name>ВыполненныеРаботыФоктическиПотраченоЧасов</name>
+      <name>ВыполненныеРаботыФактическиПотраченоЧасов</name>
       <id>50</id>
       <title>
         <key>ru</key>
@@ -627,7 +627,7 @@
         <segments>Объект.ВыполненныеРаботы.ФактическиПотраченоЧасов</segments>
       </dataPath>
       <extendedTooltip>
-        <name>ВыполненныеРаботыФоктическиПотраченоЧасовРасширеннаяПодсказка</name>
+        <name>ВыполненныеРаботыФактическиПотраченоЧасовРасширеннаяПодсказка</name>
         <id>52</id>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
@@ -637,7 +637,7 @@
         </extInfo>
       </extendedTooltip>
       <contextMenu>
-        <name>ВыполненныеРаботыФоктическиПотраченоЧасовКонтекстноеМеню</name>
+        <name>ВыполненныеРаботыФактическиПотраченоЧасовКонтекстноеМеню</name>
         <id>51</id>
         <autoFill>true</autoFill>
       </contextMenu>
