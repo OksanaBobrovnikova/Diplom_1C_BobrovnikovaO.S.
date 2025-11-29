@@ -8,10 +8,10 @@
     <recordKeyType typeId="6f7aacb7-502a-48fd-843c-853146614aeb" valueTypeId="73c4c027-1c0e-4432-a602-dc687dc74033"/>
     <recordType typeId="6c7b1dc3-2c61-4dff-a38e-f3ac68cb68cf" valueTypeId="32024660-ca1f-479d-8c8f-6fb570ec5c79"/>
   </producedTypes>
-  <name>ВКМ_СведенияОбОтпусках</name>
+  <name>ВКМ_УчетИспОтпусков</name>
   <synonym>
     <key>ru</key>
-    <value>Сведения об отпусках</value>
+    <value>Учет использования отпусков</value>
   </synonym>
   <useStandardCommands>true</useStandardCommands>
   <registerType>Turnovers</registerType>

@@ -69,26 +69,9 @@
   <checkUnique>true</checkUnique>
   <autonumbering>true</autonumbering>
   <defaultObjectForm>Document.ВКМ_ГрафикОтпусков.Form.ФормаДокумента</defaultObjectForm>
-  <registerRecords>AccumulationRegister.ВКМ_СведенияОбОтпусках</registerRecords>
+  <registerRecords>AccumulationRegister.ВКМ_УчетИспОтпусков</registerRecords>
   <postInPrivilegedMode>true</postInPrivilegedMode>
   <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
-  <attributes uuid="6b0ec93e-cdcb-4552-8e49-b9149be1d18c">
-    <name>Комментарий</name>
-    <synonym>
-      <key>ru</key>
-      <value>Комментарий</value>
-    </synonym>
-    <type>
-      <types>String</types>
-      <stringQualifiers/>
-    </type>
-    <multiLine>true</multiLine>
-    <minValue xsi:type="core:UndefinedValue"/>
-    <maxValue xsi:type="core:UndefinedValue"/>
-    <fillValue xsi:type="core:UndefinedValue"/>
-    <fullTextSearch>Use</fullTextSearch>
-    <dataHistory>Use</dataHistory>
-  </attributes>
   <forms uuid="7edaf940-b88e-45a3-852f-36a422b8bc8b">
     <name>ФормаДокумента</name>
     <synonym>

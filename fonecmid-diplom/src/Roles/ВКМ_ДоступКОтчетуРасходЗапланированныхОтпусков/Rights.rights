@@ -15,7 +15,7 @@
 		</right>
 	</object>
 	<object>
-		<name>AccumulationRegister.ВКМ_СведенияОбОтпусках</name>
+		<name>AccumulationRegister.ВКМ_УчетИспОтпусков</name>
 		<right>
 			<name>Read</name>
 			<value>true</value>

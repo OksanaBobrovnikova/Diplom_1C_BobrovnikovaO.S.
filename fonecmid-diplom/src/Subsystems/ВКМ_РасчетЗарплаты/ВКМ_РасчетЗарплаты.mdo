@@ -29,8 +29,8 @@
   <content>Role.ВКМ_ДобавлениеИзменениеДокументовНачисленияИВыплатыЗарплатыСПремией</content>
   <content>Role.ВКМ_ДобавлениеИзменениеДокументовГрафикОтпусков</content>
   <content>Report.ВКМ_РасчетыССотрудниками</content>
-  <content>AccumulationRegister.ВКМ_СведенияОбОтпусках</content>
-  <content>Document.ВКМ_ИспользованиеОтпуска</content>
+  <content>AccumulationRegister.ВКМ_УчетИспОтпусков</content>
+  <content>Document.ВКМ_УчетИспОтпуска</content>
   <content>Role.ВКМ_ДоступКОтчетуВыработкаСпециалистов</content>
   <content>Role.ВКМ_ДоступКОтчетуРасчетыССотрудниками</content>
   <content>Role.ВКМ_ДоступКОтчетуРасходЗапланированныхОтпусков</content>

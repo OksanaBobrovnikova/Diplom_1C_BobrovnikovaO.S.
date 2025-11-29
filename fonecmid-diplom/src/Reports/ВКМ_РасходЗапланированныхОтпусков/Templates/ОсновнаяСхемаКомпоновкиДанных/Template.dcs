@@ -39,7 +39,7 @@
 	ВКМ_СведенияОбОтпускахОбороты.ПланОтпускаОборот КАК ПланОтпуска,
 	ВКМ_СведенияОбОтпускахОбороты.ФактОтпускаОборот КАК ФактОтпуска
 ИЗ
-	РегистрНакопления.ВКМ_СведенияОбОтпусках.Обороты КАК ВКМ_СведенияОбОтпускахОбороты</query>
+	РегистрНакопления.ВКМ_УчетИспОтпусков.Обороты КАК ВКМ_СведенияОбОтпускахОбороты</query>
 	</dataSet>
 	<parameter>
 		<name>НачалоПериода</name>
@@ -120,16 +120,33 @@
 			</dcsset:dataParameters>
 			<dcsset:outputParameters>
 				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:use>false</dcscor:use>
 					<dcscor:parameter>Заголовок</dcscor:parameter>
 					<dcscor:value xsi:type="v8:LocalStringType">
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Расход запланированных отпусков</v8:content>
+							<v8:content/>
 						</v8:item>
 					</dcscor:value>
 				</dcscor:item>
 				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
 					<dcscor:parameter>ВыводитьПараметрыДанных</dcscor:parameter>
+					<dcscor:value xsi:type="dcsset:DataCompositionTextOutputType">DontOutput</dcscor:value>
+				</dcscor:item>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:parameter>МакетОформления</dcscor:parameter>
+					<dcscor:value xsi:type="xs:string">Античный</dcscor:value>
+				</dcscor:item>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:parameter>ГоризонтальноеРасположениеОбщихИтогов</dcscor:parameter>
+					<dcscor:value xsi:type="dcscor:DataCompositionTotalPlacement">None</dcscor:value>
+				</dcscor:item>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:parameter>ВертикальноеРасположениеОбщихИтогов</dcscor:parameter>
+					<dcscor:value xsi:type="dcscor:DataCompositionTotalPlacement">None</dcscor:value>
+				</dcscor:item>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:parameter>ВыводитьЗаголовок</dcscor:parameter>
 					<dcscor:value xsi:type="dcsset:DataCompositionTextOutputType">DontOutput</dcscor:value>
 				</dcscor:item>
 			</dcsset:outputParameters>

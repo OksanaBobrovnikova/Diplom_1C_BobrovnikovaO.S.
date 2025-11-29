@@ -535,6 +535,7 @@
   <commonPictures>CommonPicture.ОбщаяКартинка1</commonPictures>
   <commonPictures>CommonPicture.ОбщаяКартинка2</commonPictures>
   <commonPictures>CommonPicture.ОбщаяКартинка3</commonPictures>
+  <commonPictures>CommonPicture.ОбщаяКартинка4</commonPictures>
   <sessionParameters>SessionParameter.АвторизованныйПользователь</sessionParameters>
   <sessionParameters>SessionParameter.БуферОбмена</sessionParameters>
   <sessionParameters>SessionParameter.ВерсииШаблоновОграниченияДоступа</sessionParameters>
@@ -1253,7 +1254,7 @@
   <documents>Document.ВКМ_НачислениеФиксированнойПремии</documents>
   <documents>Document.ВКМ_ВыплатаЗарплаты</documents>
   <documents>Document.ВКМ_ГрафикОтпусков</documents>
-  <documents>Document.ВКМ_ИспользованиеОтпуска</documents>
+  <documents>Document.ВКМ_УчетИспОтпуска</documents>
   <documentJournals>DocumentJournal.Деньги</documentJournals>
   <enums>Enum.ВариантыОтображенияМеток</enums>
   <enums>Enum.ВариантыОчисткиФайлов</enums>
@@ -1392,8 +1393,8 @@
   <informationRegisters>InformationRegister.ПараметрыОграниченияДоступа</informationRegisters>
   <informationRegisters>InformationRegister.ПараметрыРаботыВерсийРасширений</informationRegisters>
   <informationRegisters>InformationRegister.ПараметрыРаботыПрограммы</informationRegisters>
-  <informationRegisters>InformationRegister.ПериодическиеСерверныеОповещения</informationRegisters>
   <informationRegisters>InformationRegister.ПользовательскиеМакетыПечати</informationRegisters>
+  <informationRegisters>InformationRegister.ПериодическиеСерверныеОповещения</informationRegisters>
   <informationRegisters>InformationRegister.ПользовательскиеНастройкиДоступаКОбработкам</informationRegisters>
   <informationRegisters>InformationRegister.ПоставляемыеМакетыПечати</informationRegisters>
   <informationRegisters>InformationRegister.ПотокиОбновления</informationRegisters>
@@ -1425,7 +1426,7 @@
   <accumulationRegisters>AccumulationRegister.ВКМ_ВыполненныеКлиентуРаботы</accumulationRegisters>
   <accumulationRegisters>AccumulationRegister.ВКМ_ВыполненныеСотрудникомРаботы</accumulationRegisters>
   <accumulationRegisters>AccumulationRegister.ВКМ_ВзаиморасчетыССотрудниками</accumulationRegisters>
-  <accumulationRegisters>AccumulationRegister.ВКМ_СведенияОбОтпусках</accumulationRegisters>
+  <accumulationRegisters>AccumulationRegister.ВКМ_УчетИспОтпусков</accumulationRegisters>
   <chartsOfCharacteristicTypes>ChartOfCharacteristicTypes.ДополнительныеРеквизитыИСведения</chartsOfCharacteristicTypes>
   <chartsOfCalculationTypes>ChartOfCalculationTypes.ВКМ_ОсновныеНачисления</chartsOfCalculationTypes>
   <chartsOfCalculationTypes>ChartOfCalculationTypes.ВКМ_ДополнительныеНачисления</chartsOfCalculationTypes>
