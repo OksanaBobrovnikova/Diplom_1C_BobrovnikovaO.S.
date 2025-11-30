@@ -193,13 +193,13 @@
     </synonym>
     <type>
       <types>String</types>
-      <stringQualifiers>
-        <length>10</length>
-      </stringQualifiers>
+      <stringQualifiers/>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
-    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
@@ -406,10 +406,10 @@
     </attributes>
   </tabularSections>
   <templates uuid="4b014cff-f087-4c6b-94a9-f3b56fc55c43">
-    <name>ПФ_MXL_ВКМ_РеализацияТоваровУслуг</name>
+    <name>ПФ_MXL_ВКМ_АктУслуг</name>
     <synonym>
       <key>ru</key>
-      <value>Реализация товаров и услуг</value>
+      <value>Акт об оказанных услугах</value>
     </synonym>
   </templates>
 </mdclass:Document>
